@@ -49,6 +49,10 @@ body{
 
 }
 
+.metadata{
+    max-width: fit-content;
+}
+
 .navbar{
     background: linear-gradient(270deg,#3d3e3d 0%, #06060600 30%);
     padding: 0;
@@ -69,11 +73,15 @@ body{
 }
 
 .title{
-    font-weight: lighter;
+    text-shadow: 3px 3px 0px rgba(168, 168, 168, 0.479);
 }
 
 .thumbnail-image{
     display: none;
+}
+
+.thumbnail{
+    max-width: 0;
 }
 
 .no-external{
@@ -83,6 +91,10 @@ body{
 
 .listing-author{
     display: none;
+}
+
+.input-group-text{
+    background-color: #060606;
 }
 
 .aa-DetachedOverlay{
